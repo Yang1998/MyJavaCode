@@ -20,7 +20,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/download/algs4-1.0.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../jars/algs4-1.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
