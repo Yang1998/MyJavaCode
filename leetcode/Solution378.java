@@ -3,6 +3,7 @@ package leetcode;
 import java.util.PriorityQueue;
 
 public class Solution378 {
+    // 利用最大堆，时间复杂度Nlog(k),N为matrix元素的个数
     public int kthSmallest(int[][] matrix, int k) {
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>((o1, o2) -> o2 - o1);
         for (int i = 0; i < matrix.length; i++) {
