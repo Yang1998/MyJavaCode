@@ -1,6 +1,6 @@
 package offer;
 
-public class kthNodeFromEnd_22 {
+public class KthNodeFromEnd_22 {
     // note: 输入的k 可能为<= 0 的数, k 还可能大于链表长度
     public static ListNode findKthToTail(ListNode node, int k) {
         if(node == null || k <= 0) {
