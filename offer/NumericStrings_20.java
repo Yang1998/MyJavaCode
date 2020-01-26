@@ -6,7 +6,7 @@ public class NumericStrings_20 {
         if(str == null || "".equals(str)) {
             return false;
         }
-        return isNumeric(new StringBuilder(str));
+        return isNumeric(new StringBuilder(str.trim()));
     }
 
     private static boolean isNumeric(StringBuilder str) {
