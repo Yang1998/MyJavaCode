@@ -25,3 +25,8 @@ hs_err_pid*
 output/
 .idea
 
+in.txt
+out.txt
+
+.gitignore
+
