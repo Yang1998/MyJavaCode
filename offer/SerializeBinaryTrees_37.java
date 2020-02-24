@@ -5,7 +5,7 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class SerializeBinaryTrees {
+public class SerializeBinaryTrees_37 {
     public void serialize(TreeNode root, OutputStream ostream) throws IOException {
         if (ostream == null) {
             throw new IOException();
